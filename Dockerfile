@@ -1,7 +1,7 @@
 FROM python:3.9-slim
 
 # install java
-RUN /bin/sh -c apt-get update && apt-get install openjdk-11-jdk
+RUN apt-get update && apt-get install -y openjdk-11-jdk
 
 # set softlink to python
 RUN ln -s /usr/bin/python3 /usr/bin/python
