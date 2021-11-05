@@ -1,5 +1,5 @@
 numpy
 nltk
 pandas
-plotly
+matplotlib
 nbinteract
