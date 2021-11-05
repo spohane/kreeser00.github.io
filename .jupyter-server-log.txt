@@ -51,3 +51,5 @@ TermSocket.open: Opened 1
 [I 10:36:24.834 NotebookApp] Saving file at /NbinteractDemo.ipynb
 [I 10:42:27.652 NotebookApp] Saving file at /NbinteractDemo.ipynb
 [I 10:44:32.214 NotebookApp] Saving file at /NbinteractDemo.ipynb
+[I 10:48:15.150 NotebookApp] Saving file at /NbinteractDemo.ipynb
+[I 10:48:18.558 NotebookApp] Saving file at /NbinteractDemo.ipynb
