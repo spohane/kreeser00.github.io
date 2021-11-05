@@ -1,4 +1,4 @@
-FROM polochau/cse6242-2021fall:d4c6d11796ed
+FROM polochau/cse6242-2021fall:d4c6d11796ed692fa4f70407d5ff524b2b87a7fa5dd8f61cafbc98ce9deb33de
 RUN ln -s /usr/bin/python3 /usr/bin/python
 RUN pip3 install --no-cache-dir notebook && pip3 install --no-cache-dir jupyterhub
 RUN pip3 install numpy nltk pandas matplotlib nbinteract pyspark
