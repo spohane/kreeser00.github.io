@@ -1,4 +1,4 @@
-FROM openjdk/11.0.4-jre-slim
+FROM openjdk:11
 RUN /bin/sh -c apt-get update && apt-get -y install maven jupyter python3 python3-pip
 RUN ln -s /usr/bin/python3 /usr/bin/python
 RUN pip3 install --no-cache-dir notebook && pip3 install --no-cache-dir jupyterhub
